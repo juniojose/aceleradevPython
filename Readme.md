@@ -12,7 +12,6 @@ Acesse: [Codenation](https://codenation.dev/) - Website Oficial
 
 ### Como funciona?
 
-```
 1. Inscrição e seleção
 Inscreva-se no AceleraDev de sua preferência, realize o desafio de seleção e atinja o desempenho mínimo para passar à etapa de entrevistas. 100% do processo é gratuito - da inscrição à conexão com as empresas, sem pegadinhas.
 
@@ -21,7 +20,6 @@ Acelere sua carreira durante 10 semanas de imersão em programação (online ou 
 
 3. Contratação
 Apresente o trabalho desenvolvido durante a aceleração para grandes empresas tech, mostre o seu potencial e tenha a chance de conseguir a próxima oportunidade da sua carreira.
-```
 
 ## Autor
 
