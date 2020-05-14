@@ -1,6 +1,6 @@
 # Projeto Aceleradev Python da Codenation
 
-Nesse espaço eu compartilho meus estudos, códigos e anotações no Aceleradev Python da Codenation.
+Nesse espaço eu compartilho meus estudos, códigos e anotações do Aceleradev Python da Codenation.
 
 ## O que é isso?
 
