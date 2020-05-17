@@ -1,6 +1,16 @@
 from datetime import datetime
 from math import trunc
 
+# Fixed charges are used to pay the connection cost.
+PERMANENT_CHARGE = 0.36
+
+# The charge applies to each completed 60-second cycle
+#  and there is no fractional charge.
+DAILY_CONNECTION_RATE = 0.09
+
+# At night (22h | 6h) tax is zero.
+NIGHT_CONNECTION_RATE = 0
+
 records = [
     {'source': '48-996355555', 'destination': '48-666666666',
      'end': 1564610974, 'start': 1564610674},
@@ -39,18 +49,6 @@ def calculate_tax(call_start, call_end):
     #
     # call_start: call start timestamp.
     # fim_ligacao: call end timestamp.
-    #
-    # Constants:
-    #
-    # PERMANENT_CHARGE: fixed charges are used to pay the connection cost.
-    # DAILY_CONNECTION_RATE: The charge applies to each completed
-    #  60-second cycle and there is no fractional charge.
-    #
-    # NIGHT_CONNECTION_RATE: At night (22h | 6h) tax is zero.
-
-    PERMANENT_CHARGE = 0.36
-    DAILY_CONNECTION_RATE = 0.09
-    NIGHT_CONNECTION_RATE = 0
 
     call_start_date = datetime.fromtimestamp(call_start)
     call_end_date = datetime.fromtimestamp(call_end)
