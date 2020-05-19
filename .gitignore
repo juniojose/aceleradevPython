@@ -1,3 +1,4 @@
 .gitignore
-venv/
+./python-5/venv/
+./python-6/venv/
 .vscode/
